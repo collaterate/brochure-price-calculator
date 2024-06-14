@@ -1,15 +1,15 @@
-# Project name
+# Brochure Price Calculator
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
-![GitHub repo size](https://img.shields.io/github/repo-size/scottydocs/README-template.md)
-![GitHub contributors](https://img.shields.io/github/contributors/scottydocs/README-template.md)
-![GitHub stars](https://img.shields.io/github/stars/scottydocs/README-template.md?style=social)
-![GitHub forks](https://img.shields.io/github/forks/scottydocs/README-template.md?style=social)
-![Twitter Follow](https://img.shields.io/twitter/follow/scottydocs?style=social)
+[![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 
-Project name is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+This repository contains price calculator functionality for the new, designer-optimized brochure landing page.
 
-Additional line of information text about what the project does. Your introduction should be around 2 or 3 sentences. Don't go overboard, people won't read it.
+The current framework uses a baseline brochure price (determined by market value analysis of our current default brochure configuration), applies press sheet and ink type adjustments, and adds cost-plus-markup operations prices to arrive at a final price. Since prices that are drastically different than those currently listed on SPDC would be disruptive, the model checks its output prices against legacy prices to ensure that they are "in the same ballpark" (and adjusts its outputs if necessary).
+
+Moving forward, this model provides the flexibility to set prices for specific configurations independent of underlying productions costs or markups.
+
 
 ## Prerequisites
 
