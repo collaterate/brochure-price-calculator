@@ -1,8 +1,10 @@
 # Brochure Price Calculator
 
-<!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
-[![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+[![Python 3.10 | 3.11 | 3.12](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-orange
+)](https://www.python.org/downloads/release/python-310/)
+[![Smartpress](https://img.shields.io/badge/Smartpress-blue?style=for-the-badge&logo=surrealdb)](https://smartpress.com/)
+<!--- ![Smartpress](https://img.shields.io/badge/Smartpress-blue.svg?logo=data:image/svg%2bxml;base64,) --->
 
 This repository contains price calculator functionality for the new, designer-optimized brochure landing page.
 
@@ -13,62 +15,32 @@ Moving forward, this model provides the flexibility to set prices for specific c
 
 ## Prerequisites
 
-Before you begin, ensure you have met the following requirements:
+The active environment must have installed:
 <!--- These are just example requirements. Add, duplicate or remove as required --->
-* You have installed the latest version of `<coding_language/dependency/requirement_1>`
-* You have a `<Windows/Linux/Mac>` machine. State which OS is supported/which is not.
-* You have read `<guide/link/documentation_related_to_project>`.
+* [Python 3.10](https://www.python.org/) or later.
+* [Numpy 1.20](https://numpy.org/) or later.
+* [pandas 2.0.0](https://pandas.pydata.org/) or later.
+* [rectpack 0.2.2](https://github.com/secnot/rectpack) or later.
+* [SciPy 1.13.0](https://scipy.org/) or later.
+* The five supplemental CSV and XLSX files in this repository, stored in the same directory as the main PY file.
 
-## Installing <project_name>
+## Installation
 
-To install <project_name>, follow these steps:
+To install Python, follow the instructions at https://www.python.org/downloads/. After installing Python, run the command
 
-Linux and macOS:
 ```
-<install_command>
+pip install numpy=1.26.4 pandas=2.2.2 rectpack=0.2.2 scipy=1.13.1
 ```
+from the terminal, command line, or powershell to install the requisite libraries.
 
-Windows:
-```
-<install_command>
-```
 ## Using <project_name>
 
-To use <project_name>, follow these steps:
+The calculator is run from the command line (within the appropriate working directory). For information on command line syntax, run
 
 ```
-<usage_example>
+python brochure_price_calculator.py -h
 ```
-
-Add run commands and examples you think users will find useful. Provide an options reference for bonus points!
-
-## Contributing to <project_name>
-<!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
-To contribute to <project_name>, follow these steps:
-
-1. Fork this repository.
-2. Create a branch: `git checkout -b <branch_name>`.
-3. Make your changes and commit them: `git commit -m '<commit_message>'`
-4. Push to the original branch: `git push origin <project_name>/<location>`
-5. Create the pull request.
-
-Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
-
-## Contributors
-
-Thanks to the following people who have contributed to this project:
-
-* [@scottydocs](https://github.com/scottydocs) 📖
-* [@cainwatson](https://github.com/cainwatson) 🐛
-* [@calchuchesta](https://github.com/calchuchesta) 🐛
-
-You might want to consider using something like the [All Contributors](https://github.com/all-contributors/all-contributors) specification and its [emoji key](https://allcontributors.org/docs/en/emoji-key).
 
 ## Contact
 
-If you want to contact me you can reach me at <your_email@address.com>.
-
-## License
-<!--- If you're not sure which open license to use see https://choosealicense.com/--->
-
-This project uses the following license: [<license_name>](<link>).
+Please send questions or feedback to <ryan.corkrean@thebernardgroup.com>.
