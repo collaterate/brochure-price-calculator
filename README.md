@@ -33,7 +33,7 @@ pip install numpy=1.26.4 pandas=2.2.2 rectpack=0.2.2 scipy=1.13.1
 ```
 from the terminal, command line, or powershell to install the requisite libraries.
 
-## Using <project_name>
+## Usage
 
 The calculator is run from the command line (within the appropriate working directory). For information on command line syntax, run
 
