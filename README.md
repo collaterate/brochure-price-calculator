@@ -35,11 +35,28 @@ from the terminal, command line, or powershell to install the requisite librarie
 
 ## Usage
 
-The calculator is run from the command line (within the appropriate working directory). For information on command line syntax, run
+The calculator is run from the command line (within the appropriate working directory). The command line syntax is
+```
+python brochure_price_calculator.py [-h] [-q] [-w] [-l] [-t] [-p] [-f] [-b] [-o]
 
+options:
+  -h, --help            show this help message and exit
+  -q, --quantity        quantity ordered (Default: 100)
+  -w, --width           finished width of the Brochure (Default: 8.5)
+  -l, --height          finished height of the Brochure (Default: 11.0)
+  -t, --sheet-type      paper stock type (Default: "Coated Matte - White")
+  -p, --sheet-weight    paper stock weight (Default: "100# Text")
+  -f, --front-ink       front ink to use (Default: "Full Color")
+  -b, --back-ink        back ink to use (Default: None)
+  -o, --operations      add-on operations and operations items in "OPERATION"="OPERATION ITEM" format
 ```
-python brochure_price_calculator.py -h
+
+As an example:
 ```
+python brochure_price_calculator.py --quantity 25 --width 8.5 --height 11.0 --sheet-type "Coated Matte - White" --sheet-weight "100# Text" --front-ink "Full Color" --back-ink "Full Color" --operations "Folding"="Single Fold" "Scoring-Only"="Parallel Scores" "Shrink Wrap"="Bundles;5"
+```
+
+Syntax and command line functionality can be modified upon request.
 
 ## Contact
 
