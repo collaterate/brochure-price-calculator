@@ -225,7 +225,7 @@ def calculate_operation_price(
 
 
 def calculate_price(
-    quantity: int = 25,
+    quantity: int = 100,
     finished_width: float = 8.5,
     finished_height: float = 11.0,
     press_sheet_type: str | None = 'Coated Matte - White',
