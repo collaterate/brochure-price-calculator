@@ -1,7 +1,7 @@
 # Brochure Price Calculator V2
 
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
-[![Python 3.11 | 3.12 | 3.13](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-orange
+[![Python 3.11 | 3.12 | 3.13](https://img.shields.io/badge/python-3.11%20%7C%203.12%20%7C%203.13-orange
 )](https://www.python.org/downloads/)
 [![Smartpress](https://img.shields.io/badge/Smartpress-blue?style=for-the-badge&logo=surrealdb)](https://smartpress.com/)
 <!--- ![Smartpress](https://img.shields.io/badge/Smartpress-blue.svg?logo=data:image/svg%2bxml;base64,) --->
