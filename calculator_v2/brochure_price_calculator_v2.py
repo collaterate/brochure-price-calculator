@@ -8,15 +8,16 @@ from collections import defaultdict
 from functools import partial
 from math import ceil
 from pathlib import Path
-from typing import Any, Callable, Sequence, TypeVar
+from typing import Any, Callable, Self, Sequence, TypeVar
 
 import numpy as np
 import pandas as pd
-from dotenv import load_dotenv
-from jinja2 import Template
-from sqlalchemy import create_engine, text, Engine, URL
-
-from src.calculator import PriceCalculator, CostCalculator
+try:
+    from dotenv import load_dotenv
+    from jinja2 import Template
+    from sqlalchemy import create_engine, text, Engine, URL
+except ImportError:
+    pass
 
 M = TypeVar('M', float, Sequence[float])
 Y = TypeVar('Y', float, str, dict[str, str], None)
@@ -827,7 +828,7 @@ class CostCalculator:
     def load_calculator(
         self,
         as_admin: bool = False
-    ) -> CostCalculator:
+    ) -> Self:
         """Retrieves PJC specifications and the associated costs, making the
         class instance ready to calculate costs.
 
@@ -2193,7 +2194,7 @@ class PriceCalculator(CostCalculator):
     def load_calculator(
         self,
         as_admin: bool = False
-    ) -> PriceCalculator:
+    ) -> Self:
         """Retrieves PJC specifications and the associated costs, as well as
         system markups, making the class instance ready to calculate costs and
         prices.
