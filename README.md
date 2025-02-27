@@ -18,7 +18,7 @@ Moving forward, this model provides the flexibility to set prices for specific c
 The active environment must have:
 <!--- These are just example requirements. Add, duplicate or remove as required --->
 * [Python 3.11](https://www.python.org/) or later installed.
-* [Numpy 1.20](https://numpy.org/) or later installed.
+* [NumPy 1.20](https://numpy.org/) or later installed.
 * [pandas 2.0.0](https://pandas.pydata.org/) or later installed.
 
 The brochure price calculator must be in the same directory as the script, with the file name BrochurePriceCalculator.pkl.
